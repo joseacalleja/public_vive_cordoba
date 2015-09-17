@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html class="ie7 oldie" lang="es"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8 oldie" lang="es"> <![endif]-->
+<!--[if IE 	 ]>    <html class="ie" lang="es"> <![endif]-->
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<html lang="es-MX">
+
+<head>
+<meta charset="UTF-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="width" />
+
+<title>Córdoba - Calidez que nos mueve y nos une | Atractivos | Artesanías</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> 
+<link href="css/blue.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/estructura.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,greek-ext,cyrillic-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- iconos -->
+<link rel="shortcut icon" href="images/favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+<!-- start plugins -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
+
+
+
+
+<script type="text/javascript" src="js/jssor/jssor.js"></script>
+<script type="text/javascript" src="js/jssor/jssor.slider.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 5, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 2,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                    $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $AutoCenter: 3,                             //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+                    $SpacingX: 0,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                    $SpacingY: 0,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+                    $DisplayPieces: 15,                              //[Optional] Number of pieces to display, default value is 1
+                    $ParkingPosition: 0,                            //[Optional] The offset position to park thumbnail
+                    $Orientation: 2,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+                    $DisableDrag: true                              //[Optional] Disable drag or not, default value is false
+                }
+            };
+
+            var jssor_slider3 = new $JssorSlider$("slider3_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider3.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    var sliderWidth = parentWidth;
+
+                    //keep the slider width no more than 701
+                    sliderWidth = Math.min(sliderWidth, 1100);
+
+                    jssor_slider3.$ScaleWidth(sliderWidth);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+
+
+
+	<script type="text/javascript" src="js/jquery-easing.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" />
+	
+	
+<script>	
+	$(".vimeo_test1").fancybox({
+		'padding'		: 0,
+		'autoScale'		: false,
+		'transitionIn'	: 'none',
+		'transitionOut'	: 'none',
+		'width'			: 800,
+		'height'		: 600,
+		'href'			: 'http://vimeo.com/moogaloop.swf?clip_id=136484706',
+		'type'			: 'swf'
+	});
+</script>
+
+
+</head>
+
+<body>
+<div class="header_bg">
+<div class="container">
+	<div class="header">
+	
+		<div class="logo">
+			<a href="index.html"><img src="images/logo-cordoba-cafe.png" alt=""/></a>
+		</div> <!-- end logo -->
+		
+		
+		
+		
+		<div class="h_menu">
+		     <a id="touch-menu" class="mobile-menu" href="#">Menu</a>
+		     <nav>
+		       <ul class="menu list-unstyled">
+		       <li><a href="index.html">INICIO</a></li>
+			   <li><a href="atractivos.html">ATRACTIVOS</a>
+			   			    <ul class="sub-menu list-unstyled">
+				   <!-- <li><a href="atractivos-naturales.html">Naturales</a></li>
+				   <li><a href="atractivos-monumentos.html">Monumentos</a></li>
+				   <li><a href="atractivos-artesanias.html">Artesanias</a>	-->
+				   </ul>		   
+			   </li>
+			   
+			   <li><a href="servicios.html">SERVICIOS</a>
+			   	   <ul class="sub-menu list-unstyled">
+				   <!-- <li><a href="#">Restaurantes</a></li>
+				   <li><a href="#">Cafeterias</a></li>
+				   <li><a href="#">Hoteles</a>	-->
+				   </ul>			   
+			   </li>
+			   
+			   <li><a href="#">EVENTOS</a>
+			    <ul class="sub-menu list-unstyled">
+				   <!--<li><a href="#">Expo Arte</a></li>
+				   <li><a href="#">Desfiles</a></li> -->
+			    </ul>
+			    
+			   </li>
+			   <li><a href="galeria.html">GALERIA</a></li>
+			   <li class="activate"><a href="contacto.html">CONTACTO</a></li>
+		    </ul>
+		</nav> 
+		
+		<script src="js/menu.js" type="text/javascript"></script>
+		
+		<script src="js/zA7n.js" type="text/javascript"></script>
+		<script src="js/limit.js" type="text/javascript"></script>
+
+		</div><!-- end h_menu -->
+		
+		
+		<div class="clearfix"></div>
+	</div> <!-- end header -->
+</div><!-- end container -->
+</div><!-- end header-bg -->
+
+
+
+ <div class="container-full">
+<h1>Atractivos > Artesanías</h1>
+
+
+
+
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider3_container" class="contenedor-completo-tabs">
+        
+        <!-- Slides Container -->
+        <div u="slides" class="estructura-contenido-tabs">
+        
+        
+        <!-- 1 -->
+            <div>
+                <div class="contenido-tabs">
+                
+	                <div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/artesanias/01mercado01.jpg">
+  <img src="images/atractivos/artesanias/01mercado02.jpg">
+  <img src="images/atractivos/artesanias/01mercado03.jpg">
+  <!--<img src="images/atractivos/artesanias/01mercado01.jpg">
+  <img src="images/atractivos/artesanias/01mercado01.jpg">
+  <img src="images/atractivos/artesanias/01mercado01.jpg"> -->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		               <h3>Atractivo Artesanias 1</h3>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+		                <ul>
+		                <li>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.​</li>
+		                <li>At vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum .</li>
+		                <li>Delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet.</li>
+		                </ul>
+	                </div><!-- end col-der -->
+	                
+                </div> <!-- end contenido-tabs -->
+                <div u="thumb">Atractivo artesanias 1</div>
+            </div>
+            
+            
+            
+            <!-- 2 -->
+            <div>
+                <div class="contenido-tabs">
+	                
+	                <div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/artesanias/02velas01.jpg">
+  <img src="images/atractivos/artesanias/02velas02.jpg">
+  <img src="images/atractivos/artesanias/02velas03.jpg">
+  <img src="images/atractivos/artesanias/02velas04.jpg">
+  <!--<img src="images/atractivos/artesanias/01mercado01.jpg">
+  <img src="images/atractivos/artesanias/01mercado01.jpg"> -->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Atractivo artesanias 2</h3>
+		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. ​</p>
+	                </div><!-- end col-der -->
+	                
+
+	                
+                </div>
+                <div u="thumb">Atractivo artesanias 2</div>
+            </div>
+            
+            
+            
+            <!-- 3 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/photography/molde01.jpg">
+  <img src="images/photography/molde02.jpg">
+  <img src="images/photography/molde03.jpg">
+  <img src="images/photography/molde04.jpg">
+  <img src="images/photography/molde05.jpg">
+  <img src="images/photography/molde06.jpg">
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Atractivo artesanias 3</h3>
+		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.​</p>
+
+	                </div><!-- end col-der -->
+	              	                
+	                
+                </div>
+                <div u="thumb">Atractivo artesanias 3</div>
+            </div>
+            
+            
+            
+            <!-- 4 -->
+            <div>
+                <div class="contenido-tabs">
+	                
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/photography/molde01.jpg">
+  <img src="images/photography/molde02.jpg">
+  <img src="images/photography/molde03.jpg">
+  <img src="images/photography/molde04.jpg">
+  <img src="images/photography/molde05.jpg">
+  <img src="images/photography/molde06.jpg">
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Atractivo artesanias 4</h3>
+		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.​​</p>
+
+	                </div><!-- end col-der -->
+	                                
+                </div>
+                <div u="thumb">Atractivo artesanias 4</div>
+            </div>
+            
+            
+            
+            
+            <!-- 5 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/photography/molde01.jpg">
+  <img src="images/photography/molde02.jpg">
+  <img src="images/photography/molde03.jpg">
+  <img src="images/photography/molde04.jpg">
+  <img src="images/photography/molde05.jpg">
+  <img src="images/photography/molde06.jpg">
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Atractivo artesanias 5</h3>
+		                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum .​​</p>
+
+	                </div><!-- end col-der -->
+                
+                </div>
+                <div u="thumb">Atractivo artesanias 5</div>
+            </div>
+            
+            
+            
+          </div>
+
+        <!--#region ThumbnailNavigator Skin Begin -->
+
+        <style>
+            /* jssor slider thumbnail navigator skin 13 css */
+            /*
+            .jssort13 .p            (normal)
+            .jssort13 .p:hover      (normal mouseover)
+            
+            .jssort13 .pav          (active)
+            .jssort13 .pav:hover    (active mouseover)
+            
+            .jssort13 .pdn          (mousedown)
+            */
+
+            .jssort13 { 
+                position: absolute;
+                width: 300px;
+                height: 420px;
+            }
+
+                .jssort13 .p {
+                    POSITION: absolute;
+                    WIDTH: 300px;
+                    HEIGHT: 27px;
+                    TOP: 0;
+                    LEFT: 0;
+                    padding: 0px;
+                }
+
+                .jssort13 .w {
+                    cursor: pointer;
+                    position: absolute;
+                    WIDTH: 300px;
+                    HEIGHT: 27px;
+                    border-bottom: 1px solid gray;
+                    top: -1px;
+                    left: 0px;
+                }
+
+                .jssort13 .pdn .w {border-right: 1px solid #fff;}
+
+                .jssort13 .c {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    line-height: 25px;
+                    text-align: center;
+                    color: #000;
+                    font-size: 12px;
+                }
+
+                .jssort13 .p .c  {border-right: grey;color:#088dd1;} /* tabs normales */
+                .jssort13 .p:hover .c { background-color: #fff;border-right: 1px solid grey;color:#79b647; } /* hover tabs normales */
+                
+                .jssort13 .pav .w {border-right: gray;}
+                
+                .jssort13 .pav .c  {background-color: #fff;color:#3e4095;font-weight: 800;} /* activo */                
+				.jssort13 .pav:hover .c {border-right: gray;color:#3e4095;} /* hover del activo */
+        </style>
+
+        <div u="thumbnavigator" class="jssort13" style="left: 0px; top: 0px;">
+            <!-- Thumbnail Item Skin Begin -->
+            <div u="slides" style="cursor: default; top:0px; left:0px;">
+                <div u="prototype" class="p">
+                    <div class=w><div u="thumbnailtemplate" class="c"></div></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!--#endregion ThumbnailNavigator Skin End -->
+
+    </div>
+    <!-- Jssor Slider End -->
+
+
+
+
+
+
+
+
+</div> <!-- end container-full -->
+
+	
+
+
+
+
+<footer>
+<div class="col1">
+	<div class="social-net">
+	<a href="https://www.facebook.com/pages/Vive-C%C3%B3rdoba/1042843525739290" target="_blank"><img src="images/facebook.png" alt="facebook" /></a>
+	<a href="twiter: https://twitter.com/Cordoba_Vive" target="_blank"><img src="images/twitter.png" alt="twitter" /></a>
+	<a href="https://plus.google.com/u/0/117404301102647770535/posts" target="_blank"><img src="images/google.png" alt="google+" /></a>
+	<a href="#"><img src="images/instagram.png" alt="instagram" /></a>
+
+	</div>
+	
+	<h3>Contáctanos</h3>
+	<p>H.Ayuntamiento de Córdoba 2014-2017</p>
+	<p>Avenida 1 y 3 Centro Cultural Córdoba <br/>
+Lunes a Domingo de 8:30 a 19:00 hrs <br/>
+Córdoba,Veracruz,México.
+Tel.: 271 71 2 43 44</p>
+</div>
+
+
+<div class="col2">
+	<a href="http://www.cordoba.gob.mx" target="_blank"><img src="images/logo-footer01.png" alt="Córdoba nos mueve y nos une" /></a>
+	<a href="http://www.cordoba.gob.mx" target="_blank"><img src="images/logo-footer02.png" alt="Ayuntamiento de Córdoba" /></a>
+	<a href="#"><img src="images/logo-footer03.png" alt="Sierra del Café" /></a>
+
+	<!-- <img src="images/logos-footer.png" alt="logos Córdoba"  /> -->
+</div>
+
+<div class="col3">
+	<a class="icon-clip" href="descargas.html">
+	  <img src="images/clip.png" alt="icono Clip" />
+	  <h5>Descargables</h5>
+	</a>
+	
+	
+	<a class="btn-video vimeo_test1" href="javascript:;">
+	  <i class="fa fa-video-camera"></i>
+	  <h5>Ve nuestro video</h5>
+	</a>
+	
+</div>
+
+</footer>
+
+</body>
+
+

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+
+  <data name="en_project_title"><![CDATA[Vive Córdoba]]></data>
+  <data name="en_project_author_name"><![CDATA[Tutismo Córdoba]]></data>
+  <data name="en_project_author_url"><![CDATA[http://www.vivecordoba.com]]></data>
+
+
+
+  <data name="en_pano6515_title"><![CDATA[Introduccion Recorrido]]></data>
+
+
+  <data name="en_pano49_title"><![CDATA[Kiosco Parque 21 de Mayo]]></data>
+  <data name="en_spotpoint596_tooltip"><![CDATA[Monumento de la Independencia]]></data>
+  <data name="en_spotpoint597_tooltip"><![CDATA[Parque San Jóse]]></data>
+  <data name="en_spotpoint599_tooltip"><![CDATA[Teatro Pedro Díaz]]></data>
+  <data name="en_spotpoint600_tooltip"><![CDATA[Portal Zevallos]]></data>
+  <data name="en_spotpoint601_tooltip"><![CDATA[Toxpan]]></data>
+  <data name="en_spotpoint604_tooltip"><![CDATA[Panorámica de los Portales]]></data>
+
+
+  <data name="en_pano42_title"><![CDATA[Atrio de la Catreal]]></data>
+  <data name="en_spotpicture6046_tooltip"><![CDATA[Foto Antigua de la Catedral]]></data>
+  <data name="en_spotpicture6925_tooltip"><![CDATA[Campañas de la Catedral]]></data>
+
+
+  <data name="en_pano41_title"><![CDATA[Capilla de San Sebastián]]></data>
+  <data name="en_spotpoint774_tooltip"><![CDATA[Centro Hitórico]]></data>
+  <data name="en_spotpicture6927_tooltip"><![CDATA[Templo San Sebastián]]></data>
+
+
+  <data name="en_pano38_title"><![CDATA[ Parque 21 de Mayo]]></data>
+  <data name="en_spotpoint116_tooltip"><![CDATA[Portal Zevallos]]></data>
+  <data name="en_spotpoint117_tooltip"><![CDATA[Sala de Cavildo]]></data>
+  <data name="en_spotpoint118_tooltip"><![CDATA[Palacio Municipal]]></data>
+  <data name="en_spotpoint139_tooltip"><![CDATA[Teatro Pedro Díaz]]></data>
+  <data name="en_spotpoint149_tooltip"><![CDATA[Bodegon del Siglo XVI]]></data>
+  <data name="en_spotpicture5362_tooltip"><![CDATA[Fundacion de Córdoba]]></data>
+  <data name="en_spotpicture5363_tooltip"><![CDATA[Portal Sevallos]]></data>
+  <data name="en_spotpicture5364_tooltip"><![CDATA[Catedral de la Inmaculada]]></data>
+
+
+  <data name="en_pano43_title"><![CDATA[Nave de la Catedral de la Inmaculada Concepción]]></data>
+  <data name="en_spotpicture6511_tooltip"><![CDATA[Arte Sacro]]></data>
+
+
+  <data name="en_pano44_title"><![CDATA[Sagrario de la Catedral]]></data>
+  <data name="en_spotpoint584_tooltip"><![CDATA[Imagen de]]></data>
+
+
+  <data name="en_pano45_title"><![CDATA[Plazuela de la Catedral de la Inmaculada Concepción]]></data>
+  <data name="en_spotpoint330_tooltip"><![CDATA[Kiosco]]></data>
+  <data name="en_spotpoint574_tooltip"><![CDATA[Portal Zevallos]]></data>
+  <data name="en_spotpicture6507_tooltip"><![CDATA[Campanas]]></data>
+
+
+  <data name="en_pano53_title"><![CDATA[Bodegón del Siglo XVI]]></data>
+
+
+  <data name="en_pano55_title"><![CDATA[Centro del Parque 21 de Mayo]]></data>
+  <data name="en_spotpoint163_tooltip"><![CDATA[Monumento Hidalgo]]></data>
+  <data name="en_spotpoint613_tooltip"><![CDATA[Toxpan]]></data>
+  <data name="en_spotpoint772_tooltip"><![CDATA[Capilla]]></data>
+
+
+  <data name="en_pano52_title"><![CDATA[Parque 21 de Mayo]]></data>
+  <data name="en_spotpoint769_tooltip"><![CDATA[Teatro Pedro Díaz]]></data>
+  <data name="en_spotpoint770_tooltip"><![CDATA[Kiosco]]></data>
+  <data name="en_spotpoint771_tooltip"><![CDATA[Palacio Municipal]]></data>
+  <data name="en_spotpicture6052_tooltip"><![CDATA[Obelisco]]></data>
+
+
+  <data name="en_pano59_title"><![CDATA[Mural Córdoba por Siempre Inicio]]></data>
+  <data name="en_spotpoint131_tooltip"><![CDATA[Sala de Cavildo]]></data>
+  <data name="en_spotpoint132_tooltip"><![CDATA[Mural Planta Baja]]></data>
+  <data name="en_spotpoint133_tooltip"><![CDATA[Mural Cetro]]></data>
+  <data name="en_spotpicture6045_tooltip"><![CDATA[Autor Mural, Córdoba por Siempre]]></data>
+  <data name="en_spotpicture6047_tooltip"><![CDATA[Zona Arqueologica de Toxpan]]></data>
+
+
+  <data name="en_pano60_title"><![CDATA[Mural Córdoba por Siempre]]></data>
+  <data name="en_spotpoint124_tooltip"><![CDATA[Mural Planta Baja]]></data>
+  <data name="en_spotpoint125_tooltip"><![CDATA[Mural Historia de la Mulata]]></data>
+  <data name="en_spotpoint126_tooltip"><![CDATA[Mural Historia Toxpan]]></data>
+  <data name="en_spotpoint130_tooltip"><![CDATA[Sala de Cavildo]]></data>
+  <data name="en_spotpicture6050_tooltip"><![CDATA[La Mulata de Córdoba]]></data>
+  <data name="en_spotpicture6054_tooltip"><![CDATA[Autor del Mural]]></data>
+  <data name="en_spotpicture6055_tooltip"><![CDATA[La Mulata de Córdoba]]></data>
+
+
+  <data name="en_pano61_title"><![CDATA[Sala de Cavildo]]></data>
+  <data name="en_spotpicture5628_tooltip"><![CDATA[Escudo de Armas]]></data>
+  <data name="en_spotpicture5629_tooltip"><![CDATA[Fundacion de Córdoba]]></data>
+
+
+  <data name="en_pano62_title"><![CDATA[Mural Córdoba por Siempre ]]></data>
+  <data name="en_spotpoint127_tooltip"><![CDATA[Sala de Cavildo]]></data>
+  <data name="en_spotpoint128_tooltip"><![CDATA[Mural Planta Baja]]></data>
+  <data name="en_spotpoint129_tooltip"><![CDATA[Mural Historia de Toxpan]]></data>
+  <data name="en_spotpicture6053_tooltip"><![CDATA[Mural Córdoba por Siempre]]></data>
+
+
+  <data name="en_pano63_title"><![CDATA[Mural Córdoba por Siempre]]></data>
+  <data name="en_spotpoint120_tooltip"><![CDATA[Fachada Palacio Municipal]]></data>
+  <data name="en_spotpoint121_tooltip"><![CDATA[Mural II Planta]]></data>
+  <data name="en_spotpoint122_tooltip"><![CDATA[Mural Vista a la Mulata de C]]></data>
+  <data name="en_spotpoint123_tooltip"><![CDATA[Mural Historia Toxpan]]></data>
+  <data name="en_spotpicture5625_tooltip"><![CDATA[Mural Córdoba]]></data>
+  <data name="en_spotpicture5626_tooltip"><![CDATA[La Mulata de Córdoba]]></data>
+  <data name="en_spotpicture5627_tooltip"><![CDATA[Autor Mural, Córdoba por Siempre]]></data>
+
+
+  <data name="en_pano64_title"><![CDATA[Interior Portal Zevallos]]></data>
+  <data name="en_spotpoint147_tooltip"><![CDATA[Pasillo Portal Zevallos]]></data>
+  <data name="en_spotpoint148_tooltip"><![CDATA[Interior los Portal Zevallos]]></data>
+  <data name="en_spotpicture6049_tooltip"><![CDATA[Foto Antigua]]></data>
+
+
+  <data name="en_pano65_title"><![CDATA[Portal Zevallos]]></data>
+  <data name="en_spotpoint134_tooltip"><![CDATA[Teatro Pedro Díaz]]></data>
+  <data name="en_spotpoint142_tooltip"><![CDATA[Pasillo a Portal Zevallos]]></data>
+  <data name="en_spotpoint151_tooltip"><![CDATA[Bodegón Siglo XVII]]></data>
+  <data name="en_spotpoint591_tooltip"><![CDATA[Palacio Municipal]]></data>
+  <data name="en_spotpoint592_tooltip"><![CDATA[Catedral de la Inmaculada]]></data>
+  <data name="en_spotpoint593_tooltip"><![CDATA[Kiosco]]></data>
+  <data name="en_spotpoint594_tooltip"><![CDATA[Monumento de la Independencia]]></data>
+  <data name="en_spotpoint595_tooltip"><![CDATA[Monumento Miguel Hidalgo]]></data>
+  <data name="en_spotpicture5360_tooltip"><![CDATA[Fundacion de Córdoba]]></data>
+  <data name="en_spotpicture5361_tooltip"><![CDATA[Catedral dela Inmaculada]]></data>
+  <data name="en_spotpicture6060_tooltip"><![CDATA[Portal Zevallos]]></data>
+
+
+  <data name="en_pano69_title"><![CDATA[Nave de la Catedral de la Inmaculada]]></data>
+  <data name="en_spotpoint585_tooltip"><![CDATA[Catedal de la Inmaculada]]></data>
+
+
+  <data name="en_pano54_title"><![CDATA[Palacio Municipal]]></data>
+  <data name="en_spotpoint106_tooltip"><![CDATA[Portal Zevallos]]></data>
+  <data name="en_spotpoint108_tooltip"><![CDATA[Mural Córdoba por Siempre]]></data>
+  <data name="en_spotpoint109_tooltip"><![CDATA[Sala de Cavildo]]></data>
+  <data name="en_spotpoint113_tooltip"><![CDATA[Archivo Histórico]]></data>
+  <data name="en_spotpoint115_tooltip"><![CDATA[Vista a los Portales]]></data>
+  <data name="en_spotpicture5257_tooltip"><![CDATA[Escudo de Armas]]></data>
+  <data name="en_spotpicture5356_tooltip"><![CDATA[Fundación de Córdoba]]></data>
+  <data name="en_spotpicture5357_tooltip"><![CDATA[Fundacion de Córdoba]]></data>
+  <data name="en_spotpicture5358_tooltip"><![CDATA[Obelisco]]></data>
+  <data name="en_spotpicture5359_tooltip"><![CDATA[Portal Zevallos]]></data>
+
+
+  <data name="en_pano58_title"><![CDATA[Interior Portal Zevallos]]></data>
+  <data name="en_spotpoint145_tooltip"><![CDATA[Interior Portal Zevallos]]></data>
+  <data name="en_spotpoint146_tooltip"><![CDATA[Pasillo Portal Zevallos]]></data>
+  <data name="en_spotpicture5622_tooltip"><![CDATA[Portal Zevallos]]></data>
+  <data name="en_spotpicture5623_tooltip"><![CDATA[Portal Zevallos]]></data>
+  <data name="en_spotpicture6048_tooltip"><![CDATA[Foto Antigua]]></data>
+  <data name="en_spotpicture6506_tooltip"><![CDATA[Don Manuel Zevallos]]></data>
+
+
+  <data name="en_pano57_title"><![CDATA[Archivo Histórico]]></data>
+  <data name="en_spotpoint114_tooltip"><![CDATA[Archivo Histórico]]></data>
+  <data name="en_spotpicture6034_tooltip"><![CDATA[Foto Antigua]]></data>
+  <data name="en_spotpicture6035_tooltip"><![CDATA[Foto Antigua]]></data>
+  <data name="en_spotpicture6036_tooltip"><![CDATA[Foto Antigua]]></data>
+  <data name="en_spotpicture6037_tooltip"><![CDATA[Foto Antigua]]></data>
+  <data name="en_spotpicture6038_tooltip"><![CDATA[Foto Antigua]]></data>
+  <data name="en_spotpicture7317_tooltip"><![CDATA[Tratados de Córdoba]]></data>
+  <data name="en_spotpicture7318_tooltip"><![CDATA[Tratados de Córdoba]]></data>
+
+
+  <data name="en_pano56_title"><![CDATA[Archivo Histórico ]]></data>
+  <data name="en_spotpoint119_tooltip"><![CDATA[Tratados de Córdoba]]></data>
+  <data name="en_spotpicture6039_tooltip"><![CDATA[Foto Antigua]]></data>
+  <data name="en_spotpicture6040_tooltip"><![CDATA[Foto Antigua]]></data>
+  <data name="en_spotpicture6044_tooltip"><![CDATA[Foto Antigua]]></data>
+  <data name="en_spotpicture7315_tooltip"><![CDATA[Tratados de Córdoba]]></data>
+  <data name="en_spotpicture7316_tooltip"><![CDATA[Tratados de Córdoba]]></data>
+
+
+  <data name="en_pano66_title"><![CDATA[Teatro Pedro Díaz]]></data>
+  <data name="en_spotpoint137_tooltip"><![CDATA[Foro Teatro Pedro Díaz]]></data>
+  <data name="en_spotpicture5365_tooltip"><![CDATA[Teatro Pedro Díaz]]></data>
+
+
+  <data name="en_pano67_title"><![CDATA[Teatro Pedro Díaz Foro]]></data>
+  <data name="en_spotpoint138_tooltip"><![CDATA[Centro del Teatro]]></data>
+  <data name="en_spotpicture5630_tooltip"><![CDATA[Teatro Pedro Díaz]]></data>
+
+
+  <data name="en_pano47_title"><![CDATA[Pasillo Portal Zevallos]]></data>
+  <data name="en_spotpoint143_tooltip"><![CDATA[Panoramica Parque 21 de Mayo]]></data>
+  <data name="en_spotpoint144_tooltip"><![CDATA[Interior Portal Zevallos]]></data>
+  <data name="en_spotpoint150_tooltip"><![CDATA[Bodegón Siglo XVI]]></data>
+  <data name="en_spotpicture5624_tooltip"><![CDATA[Parque 21 de Mayo]]></data>
+  <data name="en_spotpicture6061_tooltip"><![CDATA[Don Manuel Zevallos]]></data>
+
+
+  <data name="en_pano51_title"><![CDATA[Monumento Miguel Hidalgo]]></data>
+  <data name="en_spotpoint5834_tooltip"><![CDATA[Catedral]]></data>
+  <data name="en_spotpoint5835_tooltip"><![CDATA[Esquina Parque 21 de Mayo]]></data>
+  <data name="en_spotpoint5836_tooltip"><![CDATA[Portal Zevallos]]></data>
+  <data name="en_spotpicture6033_tooltip"><![CDATA[Busto Miguel Hidalgo]]></data>
+  <data name="en_spotpicture6051_tooltip"><![CDATA[Parque 21 de Mayo]]></data>
+
+
+  <data name="en_pano50_title"><![CDATA[Tostado de Cáfe, Sabana Larga]]></data>
+  <data name="en_spotpicture7322_tooltip"><![CDATA[Despulpadora]]></data>
+  <data name="en_spotpicture7478_tooltip"><![CDATA[Beneficio de Café]]></data>
+  <data name="en_spotpicture7479_tooltip"><![CDATA[Beneficio de Café]]></data>
+
+
+  <data name="en_pano37_title"><![CDATA[Catedral de la Inmaculada, II Nave]]></data>
+  <data name="en_spotpicture6059_tooltip"><![CDATA[Virgen de la Soledad]]></data>
+
+
+  <data name="en_pano160_title"><![CDATA[Catedral de la Inmaculada Altar mayor]]></data>
+  <data name="en_spotpicture6926_tooltip"><![CDATA[Virgen de la Soledad]]></data>
+
+
+  <data name="en_pano575_title"><![CDATA[II Nave Catedral de la Inmaculada]]></data>
+  <data name="en_spotpoint775_tooltip"><![CDATA[Imagen de la Inmaculada]]></data>
+  <data name="en_spotpoint777_tooltip"><![CDATA[Santisimo]]></data>
+  <data name="en_spotpicture6509_tooltip"><![CDATA[Arte Sacro]]></data>
+  <data name="en_spotpicture6510_tooltip"><![CDATA[Arte Sacro]]></data>
+
+
+  <data name="en_pano36_title"><![CDATA[Parque San Jpsé]]></data>
+  <data name="en_spotpoint612_tooltip"><![CDATA[Centro Historico]]></data>
+
+
+  <data name="en_pano68_title"><![CDATA[Ex Hacienda de Toxpan]]></data>
+  <data name="en_spotpicture6924_tooltip"><![CDATA[¿Sabías que?]]></data>
+  <data name="en_spotpicture7314_tooltip"><![CDATA[Ex Ingenio]]></data>
+
+
+  <data name="en_pano48_title"><![CDATA[Capilla de San Jóse]]></data>
+  <data name="en_spotpoint6922_tooltip"><![CDATA[Parque San José]]></data>
+
+
+  <data name="en_pano40_title"><![CDATA[Maquiladora Sabana Larga]]></data>
+  <data name="en_spotpicture7319_tooltip"><![CDATA[Tostadora de  Café]]></data>
+  <data name="en_spotpicture7320_tooltip"><![CDATA[Molino de Café]]></data>
+  <data name="en_spotpicture7321_tooltip"><![CDATA[Despulpadora]]></data>
+  <data name="en_spotpicture7480_tooltip"><![CDATA[Beneficio de Café]]></data>
+
+
+  <data name="en_pano1031_title"><![CDATA[Cuarto de Ex Hacienda Toxpan]]></data>
+  <data name="en_spotpicture7313_tooltip"><![CDATA[ES Ingenio]]></data>
+
+
+  <data name="en_pano5827_title"><![CDATA[Esquina Parque 21 de Mayo]]></data>
+  <data name="en_spotpoint5832_tooltip"><![CDATA[Esquina Parque 21 de Mayo]]></data>
+  <data name="en_spotpoint5833_tooltip"><![CDATA[Palacio Municipal]]></data>
+
+
+  <data name="en_pano5829_title"><![CDATA[Hacienda la Capilla]]></data>
+  <data name="en_spotpicture6508_tooltip"><![CDATA[Hacienda la Capilla]]></data>
+
+
+
+
+
+
+  <data name="en_controlBar_roundedzoomInTip"><![CDATA[Aproximar]]></data>
+  <data name="en_controlBar_roundedzoomOutTip"><![CDATA[Alejarse]]></data>
+  <data name="en_controlBar_roundedmoveLeftTip"><![CDATA[Mover a la izquierda]]></data>
+  <data name="en_controlBar_roundedmoveRightTip"><![CDATA[Mover a la Derecha]]></data>
+  <data name="en_controlBar_roundedmoveUpTip"><![CDATA[Mover hacia Arriba]]></data>
+  <data name="en_controlBar_roundedmoveDownTip"><![CDATA[Mover hacia Abajo]]></data>
+  <data name="en_controlBar_roundedopenFsTip"><![CDATA[Introducir Pantalla Completa]]></data>
+  <data name="en_controlBar_roundedcloseFsTip"><![CDATA[Salir de Pantalla completa]]></data>
+  <data name="en_controlBar_roundedautotourOnTip"><![CDATA[Iniciar Visita Automática]]></data>
+  <data name="en_controlBar_roundedautotourOffTip"><![CDATA[Detener la Visita Automática]]></data>
+  <data name="en_controlBar_roundedsoundsOnTip"><![CDATA[Iniciar Sonidos]]></data>
+  <data name="en_controlBar_roundedsoundsOffTip"><![CDATA[Detener Sonidos]]></data>
+  <data name="en_controlBar_roundedshowSpotsTip"><![CDATA[Mostrar Zonas Interactivas]]></data>
+  <data name="en_controlBar_roundedhideSpotsTip"><![CDATA[Ocultar Zonas Interactivas]]></data>
+  <data name="en_controlBar_roundedshowThumbnailsTip"><![CDATA[Mostrar Miniaturas]]></data>
+  <data name="en_controlBar_roundedhideThumbnailsTip"><![CDATA[Ocultar Miniaturas]]></data>
+  <data name="en_controlBar_roundedshareTip"><![CDATA[Compartir la Visita]]></data>
+  <data name="en_controlBar_roundeddisplayHelpTip"><![CDATA[Mostrar Pantalla de Ayuda]]></data>
+  <data name="en_controlBar_roundedhideHelpTip"><![CDATA[Ocultar Pantalla de Ayuda]]></data>
+  <data name="en_controlBar_roundeddisplayControlsTip"><![CDATA[Mostrar Controles]]></data>
+  <data name="en_controlBar_roundedhideControlsTip"><![CDATA[Ocultar los Controles]]></data>
+  <data name="en_loadertextloaderinfo"><![CDATA[Vive Córdoba...]]></data>
+  <data name="en_logowebsiteurl"><![CDATA[http://cordoba.gob.mx/]]></data>
+  <data name="en_logotooltipText"><![CDATA[Abrir sitio web]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

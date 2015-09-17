@@ -1,0 +1,31 @@
+.container-full {display: block;margin: 30px auto;width: 1120px;overflow: hidden;}
+.horario {display:block;/*border:1px solid #a6a6a6;*/ overflow: hidden; width: 100%;padding: 10px;}
+.horario h1 {display: block;width: 100%;text-align: center;font-size: 25px;font-weight: 700;text-transform: uppercase;border-bottom: 2px solid #cacaca;padding-bottom: 20px;}
+.horario li {display: block;width: 140px;height: 83px;float: left;border: 1px solid #808080;margin:0 8px 0 8px;}
+.horario li h3 {color: #fff;background: #098bd0;width: 100%;padding:5px;font-size: 20px;font-weight: 600;text-align: center;line-height: 100%;margin: 0;}
+.horario li p {text-align: center;font-size: 15px;padding-top: 5px;color: #5c5c5c;}
+
+.container-full h1 {font-weight: 800;text-align: center;}
+
+.seccion{display:block;width: 300px;float:left;margin:0 32px 0 32px;background: #0f4de9}
+.seccion h3 {color: #fff;text-align: center;line-height: 100%;padding: 0 0 10px 0;}
+
+
+.contenedor-completo-tabs {position: relative; top: 0px; left: 0px; width: 1100px; height: 420px; overflow: hidden;}
+.estructura-contenido-tabs {cursor: move; position: absolute; left: 299px; top: 0px; width: 800px; height: 420px; border-left: 1px solid gray; -webkit-filter: blur(0px); background-color: #fff; overflow: hidden;}
+.contenido-tabs{margin: 10px; overflow: hidden;width:779px;height: 400px;color: #000;}
+
+.contenido-tabs .col-izq {display:block;width: 385px; overflow: hidden;float: left;}
+.contenido-tabs .col-der {display:block;width: 385px; height: 400px;overflow: scroll;float: right;}
+.contenido-tabs p, .contenido-tabs li {font-size: 12px;}
+
+.item-servicios {display: block;float: left;width: 230px;height: 120px ;margin: 20px 20px 0 20px;overflow: hidden;}
+.item-servicios h3>i {color:#D1AB66;font-size: 17px;text-align: center;}
+.item-servicios h3 {line-height: 100%;color:#FF00A4;margin: 0 0 10px 0;font-size: 18px;}
+.item-servicios p {font-size: 12px;line-height: 16px;margin: 0;}
+.item-servicios p > i {color:#FF00A4;margin: 0 5px 0 0;}
+
+
+.descarga-folletos{display:block;width: 159px;float:left;margin:0 32px 0 32px;background: #fff;}
+.descarga-mapa{display:block;width: 400px;float:left;margin:0 32px 0 32px;background: #fff;}
+.container-full h2 {display: block;width: 100%;overflow: hidden;}

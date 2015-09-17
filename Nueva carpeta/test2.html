@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>jQuery Slide Popup</title>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css" />	
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+function openDialog() {
+	$('#overlay').fadeIn('fast', function() {
+		$('#popup').css('display','block');
+        $('#popup').animate({'left':'30%'},500);
+    });
+}
+
+function closeDialog(id) {
+	$('#'+id).css('position','absolute');
+	$('#'+id).animate({'left':'-100%'}, 500, function() {
+		$('#'+id).css('position','fixed');
+		$('#'+id).css('left','100%');
+		$('#overlay').fadeOut('fast');
+	});
+}
+</script>
+
+</head>
+
+<body onload="openDialog();">
+<div id="content">
+<div id="overlay" class="overlay"></div>
+<a onclick="openDialog();">Mostrar publicidad</a>
+<div id="popup" class="popup">
+	<a onclick="closeDialog('popup');" class="close"></a>
+	<div>
+    	<h2>Cámara Olimpus e330</h2>
+<div style="float:left; width:270px;">
+        	<img src="images/banner.jpg" width="270" />
+        </div>
+        <div style="float:left; width:200px;">
+          <p>Lorem ipsum dolora</p>
+          <p><br/>
+            <br/>
+          </p>
+<div style="margin-top:0px;">
+</div>
+    </div>
+	</div>
+</div>
+</div>
+</body>
+</html>

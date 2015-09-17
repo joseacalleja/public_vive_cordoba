@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>jQuery Slide Popup</title>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css" />	
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+function openDialog(id) {
+	$('#overlay').fadeIn('fast', function() {
+		$('#'+id).css('display','block');
+        $('#'+id).animate({'left':'30%'},500);
+    });
+}
+
+function closeDialog(id) {
+	$('#'+id).css('position','absolute');
+	$('#'+id).animate({'left':'-100%'}, 500, function() {
+		$('#'+id).css('position','fixed');
+		$('#'+id).css('left','100%');
+		$('#overlay').fadeOut('fast');
+	});
+}
+</script>
+
+</head>
+
+<body onload="openDialog('banner');">
+
+<div id="content">
+  <div id="overlay-banner" class="overlay-banner"></div>
+
+
+<!------------------------>
+   <a onclick="openDialog('banner');">Mostrar publicidad</a>
+  <div id="banner" class="popup-banner">
+	  <a onclick="closeDialog('banner');" class="close"></a>
+	   <div>
+    	  <div style="float:left; width:270px;">
+        	 <img src="images/banner.jpg" width="700" />
+          </div>
+       </div>
+   </div>
+</div>   
+   
+<!------------------------>
+
+<div id="content">
+  <div id="overlay" class="overlay"></div>
+   <a onclick="openDialog('banner2');">Mostrar publicidad2</a>
+  <div id="banner2" class="popup-textbox">
+	  <a onclick="closeDialog('banner2');" class="close"></a>
+	   <div>
+    	  <div style="float:left; width:270px;">
+        	 <img src="images/logo-cordoba.png" width="260" />
+          </div>
+<div style="float:left; width:600px;">
+	<p>Córdoba anteriormente llamada Lomas de Huilango y mejor conocida como “la heroica ciudad de los 30 caballeros”, es un magnifico lugar ubicado a las faldas del Citlaltepec, a 850 m.s.n.m en la zona centro del Estado de Veracruz. Goza de un clima subtropical; caluroso en primavera con temperaturas de 28°C y lluvias en verano; los otoños son tranquilos con algunos vientos, el invierno es benigno con una temperatura promedio de 12°C.
+La ciudad de los 30 caballeros se funda en el año 1618. Durante la guerra de Independencia en 1821, los cordobeses hicieron histórica resistencia a las fuerzas realistas del coronel Manuel Hevia, en defensa del Plan de Iguala y del Ejército Trigarante. El valor que demostró en ese entonces, concedió a Córdoba, el 2 de noviembre de 1880, el título de "HEROICA”, siendo esta ciudad y Veracruz las únicas que ostentan dicho honor en todo el Estado.
+Durante el reinado de Felipe III en 1618, fue honrada con el escudo del reino español en su magnificencia, extendido a los siguientes reinos.</p>
+	<p>1. º Cuarto: Cuartelado con el Reino de León en el segundo y tercer cuartel y el Reino de Castilla en el primer y cuarto cuartel.	  </p>
+	<p>2. º Cuarto: Partido verticalmente con los reinos de Aragón y Sicilia	  </p>
+	<p>3. º Cuarto: Tres líneas horizontales de gules y plata que representa al reino de Austria, bajo este el escudo de Borgoña antigua. </p>
+	<p>4. º Cuarto: De azul con lises de oro enmarcado de gules y plata acampanados que representa a Borgoña, bajo este un león de oro y sable que representa a Brabante.	  </p>
+	<p>Abundante en historia, Córdoba ha sido testigo de grandes acontecimientos de suma importancia; el 24 de Agosto del año 1821, fecha en que se reúnen Agustín de Iturbide, jefe del ejército Trigarante, y Don Juan O’Donojú, último Virrey de la Nueva España, para dar fin a 3 siglos de coloniaje español y reconocer la Independencia del país mediante la firma de “Los Tratados de Córdoba”.
+	  Otros tesoros que podemos encontrar en esta espléndida ciudad son los templos que cuentan con una arquitectura colonial, igualmente podemos disfrutar de su arqueología visitando lugares como Toxpan, escenario de importantes sucesos; descubrir Córdoba es deleitarte con su Palacio Municipal que cuenta con 21 arcos siendo estos representativos de la batalla del 21 de Mayo de igual manera muestra un Mural del pintor Jaime Sánchez, que te remontara al año de 1821, siendo este trascendental.
+	  Conocer a la generosa ciudad de los 30 caballeros nos lleva a introducirnos en su cultura y gastronomía, degustando de los platillos típicos que distinguen a esta ciudad, así mismo deleitarse con un sabroso café en los bajos del portal Zevallos apreciando de una magnifica vista hacia el centro histórico.</p>
+	<p><br/>
+	  </p>
+</div>
+       </div>
+   </div>
+
+
+
+   
+</body>
+</html>

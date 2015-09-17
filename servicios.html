@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html class="ie7 oldie" lang="es"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8 oldie" lang="es"> <![endif]-->
+<!--[if IE 	 ]>    <html class="ie" lang="es"> <![endif]-->
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<html lang="es-MX">
+
+<head>
+<meta charset="UTF-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="width" />
+
+<title>Córdoba - Calidez que nos mueve y nos une | Servicios</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> 
+<link href="css/blue.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/estructura.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,greek-ext,cyrillic-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+	
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- iconos -->
+<link rel="shortcut icon" href="images/favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+<!-- start plugins -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript" src="js/jssor/jssor.js"></script>
+<script type="text/javascript" src="js/jssor/jssor.slider.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 5, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                    $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $AutoCenter: 3,                             //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+                    $SpacingX: 0,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                    $SpacingY: 0,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+                    $DisplayPieces: 5,                              //[Optional] Number of pieces to display, default value is 1
+                    $ParkingPosition: 0,                            //[Optional] The offset position to park thumbnail
+                    $Orientation: 1,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+                    $DisableDrag: true                              //[Optional] Disable drag or not, default value is false
+                }
+            };
+
+            var jssor_slider2 = new $JssorSlider$("slider2_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider2.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    var sliderWidth = parentWidth;
+
+                    //keep the slider width no more than 602
+                    sliderWidth = Math.min(sliderWidth, 1100);
+
+                    jssor_slider2.$ScaleWidth(sliderWidth);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+
+
+	<script type="text/javascript" src="js/jquery-easing.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" />
+	
+	
+<script>	
+	$(".vimeo_test1").fancybox({
+		'padding'		: 0,
+		'autoScale'		: false,
+		'transitionIn'	: 'none',
+		'transitionOut'	: 'none',
+		'width'			: 800,
+		'height'		: 600,
+		'href'			: 'http://vimeo.com/moogaloop.swf?clip_id=136484706',
+		'type'			: 'swf'
+	});
+</script>
+
+
+</head>
+
+<body>
+<div class="header_bg">
+<div class="container">
+	<div class="header">
+	
+		<div class="logo">
+			<a href="index.html"><img src="images/logo-cordoba-cafe.png" alt=""/></a>
+		</div> <!-- end logo -->
+		
+		
+		
+		
+		<div class="h_menu">
+		     <a id="touch-menu" class="mobile-menu" href="#">Menu</a>
+		     <nav>
+		       <ul class="menu list-unstyled">
+		       <li><a href="index.html">INICIO</a></li>
+			   <li><a href="atractivos.html">ATRACTIVOS</a>
+			   			    <ul class="sub-menu list-unstyled">
+				   <!-- <li><a href="atractivos-naturales.html">Naturales</a></li>
+				   <li><a href="atractivos-monumentos.html">Monumentos</a></li>
+				   <li><a href="atractivos-artesanias.html">Artesanias</a>	-->
+				   </ul>		   
+			   </li>
+			   
+			   <li class="activate"><a href="servicios.html">SERVICIOS</a>
+			   	   <ul class="sub-menu list-unstyled">
+				   <!-- <li><a href="#">Restaurantes</a></li>
+				   <li><a href="#">Cafeterias</a></li>
+				   <li><a href="#">Hoteles</a>	-->
+				   </ul>			   
+			   </li>
+			   
+			   <li><a href="#">EVENTOS</a>
+			    <ul class="sub-menu list-unstyled">
+				   <!--<li><a href="#">Expo Arte</a></li>
+				   <li><a href="#">Desfiles</a></li> -->
+			    </ul>
+			    
+			   </li>
+			   <li><a href="galeria.html">GALERIA</a></li>
+			   <li><a href="contacto.html">CONTACTO</a></li>
+		    </ul>
+		</nav> 
+		
+		<script src="js/menu.js" type="text/javascript"></script>
+		
+		<script src="js/zA7n.js" type="text/javascript"></script>
+		<script src="js/limit.js" type="text/javascript"></script>
+
+		</div><!-- end h_menu -->
+		
+		
+		<div class="clearfix"></div>
+	</div> <!-- end header -->
+</div><!-- end container -->
+</div><!-- end header-bg -->
+
+
+
+ <div class="container-full">
+<h1>Servicios</h1>
+
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider2_container" style="position: relative; top: 0px; left: 0px; width: 1100px; height: 420px; overflow: hidden;">
+        
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 29px; width: 1100px; height: 390px; border-top: 1px solid gray; -webkit-filter: blur(0px); background-color: #fff; overflow: hidden;">
+        
+        
+        <!-- 1 -->
+            <div>
+                <div style="margin: 10px; overflow: scroll; color: #000;width: 1080px;height: 370px;">
+                
+                                                 
+                 <div class="item-servicios">
+				<h3>Los Portales</h3>
+				<p><i class="fa fa-cutlery"></i>Cocina Méxicana</p>
+				<p><i class="fa fa-map-marker"></i>Av. 1 Calle 1<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71  2 37 52</p>
+                </div>                 
+                
+                
+                 <div class="item-servicios">
+				<h3>Jaiba loca</h3>
+				<p><i class="fa fa-cutlery"></i>Mariscos</p>
+				<p><i class="fa fa-map-marker"></i>Av.1 calle 3<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 7 93 37</p>
+                </div>                 
+                
+                                
+                <div class="item-servicios">
+				<h3>El Manguito</h3>
+				<p><i class="fa fa-cutlery"></i>Carnes y Mariscos</p>
+				<p><i class="fa fa-map-marker"></i>Calle 27 av. 2 y 2a.<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 2 42 59</p>
+                </div>                
+                
+                
+                 <div class="item-servicios">
+				<h3>El Huatusquito</h3>
+				<p><i class="fa fa-cutlery"></i>Repostería</p>
+				<p><i class="fa fa-map-marker"></i>Av7 calle 20<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 2 59 71</p>
+                </div>                
+                
+                               
+                  <div class="item-servicios">
+				<h3>Los 30`s</h3>
+				<p><i class="fa fa-cutlery"></i>Cocina Internacional</p>
+				<p><i class="fa fa-map-marker"></i>Av. 9 entre Calles 20 y 22<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 712 33 99</p>
+                </div>                
+                
+                   <div class="item-servicios">
+				<h3>Tahoma</h3>
+				<p><i class="fa fa-cutlery"></i>Cocina Regional y Cafetería</p>
+				<p><i class="fa fa-map-marker"></i>Av. 2 Calle 2<br/></p>
+<p><i class="fa fa-phone"></i>01(271) 71 2 16 42</p>
+                </div>                
+                
+                                                
+                    <div class="item-servicios">
+				<h3>La Tratoria de Santa María </h3>
+				<p><i class="fa fa-cutlery"></i>Cocina Internacional</p>
+				<p><i class="fa fa-map-marker"></i>Av. 9 entre Calles 20 y 22<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 712 33 99</p>
+                </div>                
+                
+                                               
+                    <div class="item-servicios">
+				<h3>Señor Bamboo  </h3>
+				<p><i class="fa fa-cutlery"></i>Cocina Asiática y Cortes de Carnes</p>
+				<p><i class="fa fa-map-marker"></i>Calle 22 #905 San José<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 6 22 00</p>
+                </div>                
+                
+                                 
+                    <div class="item-servicios">
+				<h3>La Tentazione </h3>
+				<p><i class="fa fa-cutlery"></i>Comida internacional</p>
+				<p><i class="fa fa-map-marker"></i>Av. 9 Núm. 1803<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 20357</p>
+                </div>                
+                
+                                 
+                    <div class="item-servicios">
+				<h3>El Rincón de Cerro Tunilla  </h3>
+				<p><i class="fa fa-cutlery"></i>Comida Mexicana</p>
+				<p><i class="fa fa-map-marker"></i>Av. 2 calle 1<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 7 70 04</p>
+                </div>                
+                
+                    <div class="item-servicios">
+				<h3>Casa Diaz</h3>
+				<p><i class="fa fa-cutlery"></i>Mariscos</p>
+				<p><i class="fa fa-map-marker"></i>Calle 15 No. 516 Col. Centro<br/></p>
+<p><i class="fa fa-phone"></i>Pendiente</p>
+                </div>                
+                
+                     <div class="item-servicios">
+				<h3>Centli Calli  </h3>
+				<p><i class="fa fa-cutlery"></i>Comida nacional tradicional</p>
+				<p><i class="fa fa-map-marker"></i>Calle 4 No. 305 entre Avs 3 y 5<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 5 51 44</p>
+                </div>                
+                
+                     <div class="item-servicios">
+				<h3>Centli Calli  </h3>
+				<p><i class="fa fa-cutlery"></i>Ensalada</p>
+				<p><i class="fa fa-map-marker"></i>Av. 9 Bis entre Calles 12 y 14<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 178 25 74</p>
+                </div>                                                                      
+                
+                     <div class="item-servicios">
+				<h3>Tortas Marcelino</h3>
+				<p><i class="fa fa-cutlery"></i>Tortas</p>
+				<p><i class="fa fa-map-marker"></i>Avenida 7 #705<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 2 11 47</p>
+                </div>                                                                      
+                
+                                
+                      <div class="item-servicios">
+				<h3>Sabores </h3>
+				<p><i class="fa fa-cutlery"></i>Comida variada</p>
+				<p><i class="fa fa-map-marker"></i>Calle 4 entre Av. 1 y 2, col. centro<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 169 4406</p>
+                </div>                                                                      
+                
+                      <div class="item-servicios">
+				<h3>Mi kasa</h3>
+				<p><i class="fa fa-cutlery"></i>Comida japonesa</p>
+				<p><i class="fa fa-map-marker"></i>Av. 5 Nº 212 A, col. centro<br/></p>
+<p><i class="fa fa-phone"></i>01(271)71 27 613</p>
+                </div>                                                                      
+                                                
+                      <div class="item-servicios">
+				<h3>Tacos doña Guicha </h3>
+				<p><i class="fa fa-cutlery"></i>Comida mexicana </p>
+				<p><i class="fa fa-map-marker"></i>Calles 3 y 5 Av. 3 Col.centro<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 4 48 82</p>
+                </div>                                                                      
+                                                
+                      <div class="item-servicios">
+				<h3>Pollos fuerte </h3>
+				<p><i class="fa fa-cutlery"></i>Pollo rostizado, asado</p>
+				<p><i class="fa fa-map-marker"></i>Av. 11 No. 1404, Blvd. Córdoba-Fortín<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 2 72 65</p>
+                </div>                                                                      
+                                                
+                      <div class="item-servicios">
+				<h3>Pollos Yambo</h3>
+				<p><i class="fa fa-cutlery"></i>Pollo rostizado, asado, etc.</p>
+				<p><i class="fa fa-map-marker"></i>Av. 21 Calle 6 B y 16 C No. 11 Fracc. Jardines de San Dimas</p>
+<p><i class="fa fa-phone"></i>01 (271) 71 2 17 76</p>
+                </div>                                                                      
+                                                
+ 
+                      <div class="item-servicios">
+				<h3>La Braza </h3>
+				<p><i class="fa fa-cutlery"></i>Comida mexicana</p>
+				<p><i class="fa fa-map-marker"></i>Av. 11 Calles 4 y 6<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 405 25 34</p>
+                </div>                                                                      
+                                                
+                   
+                       <div class="item-servicios">
+				<h3>Las Delicias   </h3>
+				<p><i class="fa fa-cutlery"></i>Comida mexicana</p>
+				<p><i class="fa fa-map-marker"></i>Av. 2 calle 3 y 5 Col. Centro No. 307<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 4 94 94</p>
+                </div>                                                                      
+                                                
+                  
+                       <div class="item-servicios">
+				<h3>Doña Lala</h3>
+				<p><i class="fa fa-cutlery"></i>Comida mexicana</p>
+				<p><i class="fa fa-map-marker"></i>Calle 7 entre avenidas 3 y 5<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 2 71 11</p>
+                </div>                                                                      
+                                                
+                   
+                       <div class="item-servicios">
+				<h3>El Rincón de Cerro Tunilla  </h3>
+				<p><i class="fa fa-cutlery"></i>Comida mexicana</p>
+				<p><i class="fa fa-map-marker"></i>Av. 2 y calle 1. Esq. Col. Centro<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 7 70 04</p>
+                </div>                                                                      
+                                                
+                  
+                       <div class="item-servicios">
+				<h3>Las Tortas del Guero</h3>
+				<p><i class="fa fa-cutlery"></i>Tortas</p>
+				<p><i class="fa fa-map-marker"></i>Calle 17 No. 326 entre avs. 3 y 5<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 712 35 59</p>
+                </div>                                                                      
+                                                
+                  
+                       <div class="item-servicios">
+				<h3>Los Faroles</h3>
+				<p><i class="fa fa-cutlery"></i>Cocina Mexicana y Cortes de Carnes<br/></p>
+				<p><i class="fa fa-map-marker"></i>Av. 9 entre calles 22 y24.</p>
+<p><i class="fa fa-phone"></i>01 (271) 71 6 56 64</p>
+                </div>                                                                      
+                                                
+                   
+                       <div class="item-servicios">
+				<h3>Comedor Sagitario</h3>
+				<p><i class="fa fa-cutlery"></i>Comida Variada</p>
+				<p><i class="fa fa-map-marker"></i>Calle 5 Av. 6 y 8 No.613<br/></p>
+<p><i class="fa fa-phone"></i>01(271)2711083996</p>
+                </div>                                                                      
+                                                
+                   
+                       <div class="item-servicios">
+				<h3>Tangos </h3>
+				<p><i class="fa fa-cutlery"></i>Comida Argentina</p>
+				<p><i class="fa fa-map-marker"></i>Av. 9 calle 22 y 22 Bis<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 716 55 59</p>
+                </div>                                                                      
+                                                
+                    
+                       <div class="item-servicios">
+				<h3>Las ahogadas   </h3>
+				<p><i class="fa fa-cutlery"></i>Comida Variada</p>
+				<p><i class="fa fa-map-marker"></i>Av. 3 entre Calles 25 y 27 #2514 Col. Centro</p>
+<p><i class="fa fa-phone"></i>01 (271) 71 2 51 42</p>
+                </div>                                                                      
+                                                
+                                       
+                      <div class="item-servicios">
+				<h3>Restaurante Díaz   </h3>
+				<p><i class="fa fa-cutlery"></i>Cocina Asiática y Cortes de Carnes</p>
+				<p><i class="fa fa-map-marker"></i>Calle 22 #905 San José<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 6 22 00</p>
+                </div>                                                                      
+                                                
+                                        
+                      <div class="item-servicios">
+				<h3>Rodeo</h3>
+				<p><i class="fa fa-cutlery"></i>Barbacoa</p>
+				<p><i class="fa fa-map-marker"></i>Calle 3 avs. 9 y 11<br/></p>
+<p><i class="fa fa-phone"></i>01(271) 140 31 67</p>
+                </div>                                                                      
+                                                
+                      <div class="item-servicios">
+				<h3>Virreynal</h3>
+				<p><i class="fa fa-cutlery"></i>Comida Mexicana</p>
+				<p><i class="fa fa-map-marker"></i>Av. 1 calle 5 núm. 309<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 22 37 77</p>
+                </div>                                                                      
+                                                
+                                                         
+                       <div class="item-servicios">
+				<h3>Pepe Pollo</h3>
+				<p><i class="fa fa-cutlery"></i>Pollo rostizado, asado, etc.</p>
+				<p><i class="fa fa-map-marker"></i>Calle 13 Nuevo. Córdoba No. 3807<br/></p>
+<p><i class="fa fa-phone"></i>Calle 13 Nuevo. Córdoba No. 3807</p>
+                </div>                                                                      
+                                                
+                                                         
+                       <div class="item-servicios">
+				<h3>La 5ta. Cevicheria</h3>
+				<p><i class="fa fa-cutlery"></i>Cilandro Jalapeño</p>
+				<p><i class="fa fa-map-marker"></i>AV.5 calle 4 y 6<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 26385</p>
+                </div>                                                                      
+                                                
+                       <div class="item-servicios">
+				<h3>El Patio de La Abuela</h3>
+				<p><i class="fa fa-cutlery"></i>Comida mexicana</p>
+				<p><i class="fa fa-map-marker"></i>Calle 1 Avs. 2 y 4 No.1208, Col. Centro<br/></p>
+<p><i class="fa fa-phone"></i>01 (271) 71 2 06 06</p>
+                </div>                                                                      
+                                                
+                                                                                                        
+                                
+                </div>
+                <div u="thumb">Restaurantes</div>
+            </div>
+            
+            
+            
+            
+            
+            
+            <!-- 2 -->
+            <div>
+                <div style="margin: 10px; overflow: scroll; color: #000;width: 1080px;height: 370px;">
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Hotel Layfer</h3>
+                <p>Video bar, gimnasio, cancha de básquet, alberca, seguridad, 24 hrs.</p>
+                <p><i class="fa fa-map-marker"></i> Ave. 5 No 908 entre calles 9 y 11</p>
+<p><i class="fa fa-phone"></i> 01(271)71 4 05 05 Ext.0</p>
+                </div>
+
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Villlas Layfer</h3>
+                <p>Video bar, gimnasio, cancha de básquet, alberca, seguridad, 24 hrs.</p>
+                <p><i class="fa fa-map-marker"></i>Autopista Córdoba Fortín</p>
+<p><i class="fa fa-phone"></i> 01 (271) 71 6 09 50 Ext. 1</p>
+                </div>
+
+
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Suites Layfer</h3>
+                <p>Video bar, gimnasio, cancha de básquet, alberca, seguridad, 24 hrs.</p>
+                <p><i class="fa fa-map-marker"></i>Calle 5 no. 2306 entre av. 23</p>
+<p><i class="fa fa-phone"></i> 01 (271)71 7 32 00</p>
+                </div>
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Comfort Inn </h3>
+                <p>Estacionamiento, restaurante, room service, WIFI, salón de eventos</p>
+                <p><i class="fa fa-map-marker"></i>Av. 1 No. 2623 Plaza Fundadores</p>
+<p><i class="fa fa-phone"></i> 01 (271) 7 18 07 77</p>
+                </div>
+
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Mansur</h3>
+                <p>WiFi, tv. cable, estacionamiento, centro de negocios, salón de negocios.</p>
+                <p><i class="fa fa-map-marker"></i>Av. 1 calle 3 No. 301</p>
+<p><i class="fa fa-phone"></i>01(271) 712 60 00 / 01(271) 712 69 89</p>
+                </div>
+
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                HB</h3>
+                <p>Básicos, estacionamiento, clima, Wi-Fi, salón de eventos.</p>
+                <p><i class="fa fa-map-marker"></i>Calle 8 y Av. 13 No.1318</p>
+<p><i class="fa fa-phone"></i>01 (271) 714 28 00</p>
+                </div>
+
+
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                RS</h3>
+                <p>Wi-Fi, tv. cable, llave electrónica, estacionamiento, salón de negocios</p>
+                <p><i class="fa fa-map-marker"></i>Av. 1 No. 423 entre calles 4 y 6 </p>
+<p><i class="fa fa-phone"></i>01(271) 71 4 70 20</p>
+                </div>
+
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Virreynal</h3>
+                <p>Básicos, estacionamiento, clima, Wi-Fi, salón de eventos.</p>
+                <p><i class="fa fa-map-marker"></i>Av. 1 No. 309 Centro.</p>
+<p><i class="fa fa-phone"></i>01(271) 71 2 23 77</p>
+                </div>
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Ros Gaud</h3>
+                <p>Básicos, estacionamiento, clima, Wi-Fi, salón de eventos.</p>
+                <p><i class="fa fa-map-marker"></i>Av. 3 No. 902 Centro</p>
+<p><i class="fa fa-phone"></i>01(271) 71 2 55 00</p>
+                </div>
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Real Villa Florida </h3>
+                <p>Estacionamiento, caja de seguridad, cambio de moneda, salón de negocios</p>
+                <p><i class="fa fa-map-marker"></i>Av. 1 No. 3002 Dos Caminos.</p>
+<p><i class="fa fa-phone"></i>01 (271)71 6 33 36</p>
+                </div>
+
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Bello Córdoba</h3>
+                <p>Básicos, estacionamiento, clima, Wi-Fi, salón de eventos.</p>
+                <p><i class="fa fa-map-marker"></i>Av. 2 No. 319 </p>
+<p><i class="fa fa-phone"></i>01(271)712 81 22 / 01(271)712 81 23</p>
+                </div>
+
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Palacio</h3>
+                <p>Estacionamiento, Wi-Fi, service room, elevador, restaurante.</p>
+                <p><i class="fa fa-map-marker"></i>Calle 2 No. 300 Centro</p>
+<p><i class="fa fa-phone"></i>01(271) 71 2 21 88</p>
+                </div>
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Iberia</h3>
+                <p>Estacionamiento, restaurante, room service, WIFI, salón de eventos</p>
+                <p><i class="fa fa-map-marker"></i>Av. 1 No. 2623 Plaza Fundadores</p>
+<p><i class="fa fa-phone"></i>01 (271) 7 18 07 77</p>
+                </div>
+
+
+
+                <div class="item-servicios">
+				<h3><i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<br/>
+                Los Arcos </h3>
+                <p>TV. Cable, estacionamiento, agua caliente, restaurante, ventilador.</p>
+                <p><i class="fa fa-map-marker"></i>Pendiente</p>
+<p><i class="fa fa-phone"></i>01(271)712 59 58 / 01(271)712 49 57</p>
+                </div>
+                
+                <div class="item-servicios">
+				<h3>Los Reyes</h3>
+				<p>Tv. Cable, agua caliente Wi-Fi.</p>
+<p><i class="fa fa-map-marker"></i>3 No. 10 Córdoba, Ver</p>
+<p><i class="fa fa-phone"></i> 01 (271) 71 2 25 38</p>
+<p>Línea económica</p>               
+                </div>                
+                
+                
+
+                <div class="item-servicios">
+				<h3>Posada López</h3>
+				<p>Ventilador, agua caliente, TV abierta.</p>
+<p><i class="fa fa-map-marker"></i> Calle 5 No. 219 Córdoba, Ver.</p>
+<p><i class="fa fa-phone"></i> 01 (271) 169 26 12</p>
+<p>Línea económica</p>               
+                </div>
+                
+                <div class="item-servicios">
+				<h3>Mallorca</h3>
+				<p>Baño, ventilador, TV, cable, WiFi.</p>
+<p><i class="fa fa-phone"></i> 01 (271) 71 2 04 91</p>
+<p>Línea económica</p>               
+                </div>                
+                
+                 <div class="item-servicios">
+				<h3>Fuentes</h3>
+				<p>TV, cable, y/o promo. sin clima.</p>
+<p><i class="fa fa-phone"></i> 01 (271) 71 2 23 78</p>
+<p>Línea económica</p>               
+                </div>                
+                
+                 <div class="item-servicios">
+				<h3>5ta.Avenida</h3>
+				<p>Internet, TV, cable, clima</p>
+				<p><i class="fa fa-map-marker"></i> Av. 5 calle 2 y 4, Córdoba, Ver.</p>
+<p><i class="fa fa-phone"></i> 01(271)1577700</p>
+<p>Línea económica</p>               
+                </div>                  
+                                
+                 <div class="item-servicios">
+				<h3>Hotel Del centro</h3>
+				<p>Estacionamiento incluido y desayuno continental y WiFi</p>
+<p><i class="fa fa-phone"></i> 01(271) 71 2 45 23</p>
+<p>Línea económica</p>               
+                </div> 
+
+
+                
+                </div>
+                <div u="thumb">Hoteles</div>
+            </div>
+            
+            
+            
+            
+            
+            
+            <!-- 3 -->
+            <div>
+                <div style="margin: 10px; overflow: scroll; color: #000;width: 1080px;height: 370px;">
+                
+                <div class="item-servicios">
+				<h3>Italian Coffe</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. 3 Calle 1 Centro histórico. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 71 2 74 37</p>
+				<p></p>               
+                </div> 
+
+                <div class="item-servicios">
+				<h3>COLLAGE</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Boulevard Córdoba- Fortín</p>
+				<p><i class="fa fa-phone"></i></p>
+				<p></p>               
+                </div>                 
+
+
+                <div class="item-servicios">
+				<h3>CALUFE</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Calle 3 Avs. 2 y 4 Col. Centro Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 405 2467</p>
+				<p></p>               
+                </div> 
+
+                <div class="item-servicios">
+				<h3>Monte Rosas</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> 1Calle 2 Avs. 1 y 3 Col. Centro, Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 71 7 96 8</p>
+				<p></p>               
+                </div> 
+                
+                <div class="item-servicios">
+				<h3>El Borrego</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. 3 Calle 5 Esquina Col. Centro.  Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 714 1059</p>
+				<p></p>               
+                </div> 
+                
+                <div class="item-servicios">
+				<h3>Pastelería y Cafetería Dauzón</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. Esquina calle 5 Centro. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 71 2 63 59</p>
+				<p></p>               
+                </div> 
+                
+                 <div class="item-servicios">
+				<h3>El Interiorio</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. 3 calles 3 y 5 Col. Centro. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 717 6160</p>
+				<p></p>               
+                </div> 
+                
+                <div class="item-servicios">
+				<h3>Cafetería Sainz</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. 7 núm. 1647 CP. 94560. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 71 7 80 31</p>
+				<p></p>               
+                </div>                                                
+
+                 <div class="item-servicios">
+				<h3>La Rosa Mistica</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. 2 Calles 3 y 5 #309 Col. Centro. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 405 2292</p>
+				<p></p>               
+                </div> 
+                
+                <div class="item-servicios">
+				<h3>Lulú Pastelerías</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. 5 Calle 9 núm. 707 Cp. 94500. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 71 4 61 45</p>
+				<p></p>               
+                </div>  
+
+                 <div class="item-servicios">
+				<h3>El Porto</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Calle 3 Avs. 3 y 5 Col. Centro. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i></p>
+				<p></p>               
+                </div> 
+                
+                <div class="item-servicios">
+				<h3>Tahona</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Calle 4 Av. 2 esquina, Col. Centro. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i></p>
+				<p></p>               
+                </div>  
+                
+                 <div class="item-servicios">
+				<h3>Punto Café</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. 9 número 1801 Col. San José. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 157 02 14</p>
+				<p></p>               
+                </div> 
+                
+                <div class="item-servicios">
+				<h3>Café Parroquia</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. 1 Calle 1 Centro Histórico. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 712 1989</p>
+				<p></p>               
+                </div>  
+
+                 <div class="item-servicios">
+				<h3>Café Tatiaxca</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Calle 20 Avs. 1 y 5 Col. Centro. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 271 178 4370</p>
+				<p></p>               
+                </div> 
+                
+                <div class="item-servicios">
+				<h3>Café Tío Manolo</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Calle 5 Avenidas 1 y 2, 94500. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 ( 271) 712 2377</p>
+				<p></p>               
+                </div>  
+                       
+                <div class="item-servicios">
+				<h3>Samy Café</h3>
+				<p></p>
+				<p><i class="fa fa-map-marker"></i> Av. 9 No. 801 entre calles 8 y 10 Col. San José. Córdoba, Ver.</p>
+				<p><i class="fa fa-phone"></i>01 (271) 717 80 33</p>
+				<p></p>               
+                </div> 
+                                                                
+                </div>
+                <div u="thumb">Cafeterías</div>
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        <!--#region ThumbnailNavigator Skin Begin -->
+        <style>
+            /* jssor slider thumbnail navigator skin 12 css */
+            /*
+            .jssort12 .p            (normal)
+            .jssort12 .p:hover      (normal mouseover)
+            .jssort12 .pav          (active)
+            .jssort12 .pav:hover    (active mouseover)
+            .jssort12 .pdn          (mousedown)
+            */
+            .jssort12 {position: absolute;width: 1100px;height: 30px;}
+			.jssort12 .w {cursor: pointer;position: absolute;WIDTH: 200px;HEIGHT: 30px;border: 1px solid gray;top: 0px;left: -1px;}
+			.jssort12 .p {position: absolute;width: 200px;height: 30px;top: 0;left: 0;padding: 0px;}
+			.jssort12 .c { width: 100%; height: 100%; position: absolute; top: 0; left: 0; line-height: 30px; text-align: center; color: #000; font-size: 13px;}
+			
+                .jssort12 .pdn .w {border-bottom: 1px solid #fff;}
+                
+				.jssort12 .p .c {background-color: #eee;}  /* tabs normales */
+                .jssort12 .p:hover .c {background-color: #fff;} /* hover tabs normales */
+
+
+                .jssort12 .pav .w {border-bottom: 1px solid #fff;}
+				.jssort12 .pav .c {background-color: #fff;} /* activo */
+				.jssort12 .pav:hover .c {background-color: #fff;} /* hover del activo */
+
+        </style>
+
+        <div u="thumbnavigator" class="jssort12" style="left:0px; top: 0px;">
+            <!-- Thumbnail Item Skin Begin -->
+            <div u="slides" style="cursor: default; top: 0px; left: 0px; border-left: 1px solid gray;">
+                <div u="prototype" class="p">
+                    <div class=w><div u="thumbnailtemplate" class="c"></div></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!--#endregion ThumbnailNavigator Skin End -->
+
+    </div>
+    <!-- Jssor Slider End -->
+
+</div> <!-- end container-full -->
+
+	
+
+
+
+
+<footer>
+<div class="col1">
+	<div class="social-net">
+	<a href="https://www.facebook.com/pages/Vive-C%C3%B3rdoba/1042843525739290" target="_blank"><img src="images/facebook.png" alt="facebook" /></a>
+	<a href="twiter: https://twitter.com/Cordoba_Vive" target="_blank"><img src="images/twitter.png" alt="twitter" /></a>
+	<a href="https://plus.google.com/u/0/117404301102647770535/posts" target="_blank"><img src="images/google.png" alt="google+" /></a>
+	<a href="#"><img src="images/instagram.png" alt="instagram" /></a>
+
+	</div>
+	
+	<h3>Contáctanos</h3>
+	<p>H.Ayuntamiento de Córdoba 2014-2017</p>
+	<p>Avenida 1 y 3 Centro Cultural Córdoba <br/>
+Lunes a Domingo de 8:30 a 19:00 hrs <br/>
+Córdoba,Veracruz,México.
+Tel.: 271 71 2 43 44</p>
+</div>
+
+
+<div class="col2">
+	<a href="http://www.cordoba.gob.mx" target="_blank"><img src="images/logo-footer01.png" alt="Córdoba nos mueve y nos une" /></a>
+	<a href="http://www.cordoba.gob.mx" target="_blank"><img src="images/logo-footer02.png" alt="Ayuntamiento de Córdoba" /></a>
+	<a href="#"><img src="images/logo-footer03.png" alt="Sierra del Café" /></a>
+
+	<!-- <img src="images/logos-footer.png" alt="logos Córdoba"  /> -->
+</div>
+
+<div class="col3">
+	<a class="icon-clip" href="descargas.html">
+	  <img src="images/clip.png" alt="icono Clip" />
+	  <h5>Descargables</h5>
+	</a>
+	
+	
+	<a class="btn-video vimeo_test1" href="javascript:;">
+	  <i class="fa fa-video-camera"></i>
+	  <h5>Ve nuestro video</h5>
+	</a>
+	
+</div>
+
+</footer>
+
+</footer>
+
+</body>
+
+

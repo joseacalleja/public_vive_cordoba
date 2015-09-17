@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html class="ie7 oldie" lang="es"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8 oldie" lang="es"> <![endif]-->
+<!--[if IE 	 ]>    <html class="ie" lang="es"> <![endif]-->
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<html lang="es-MX">
+
+<head>
+<meta charset="UTF-8">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="width" />
+
+<title>Córdoba - Calidez que nos mueve y nos une | Atractivos | Monumentos</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> 
+<link href="css/blue.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/estructura.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,greek-ext,cyrillic-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- iconos -->
+<link rel="shortcut icon" href="images/favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+<!-- start plugins -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
+
+
+
+
+<script type="text/javascript" src="js/jssor/jssor.js"></script>
+<script type="text/javascript" src="js/jssor/jssor.slider.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: false,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlaySteps: 1,                                  //[Optional] Steps to go for each navigation request (this options applys only when slideshow disabled), the default value is 1
+                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                               //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 500,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
+                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
+                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
+                $SlideSpacing: 5, 					                //[Optional] Space between each slide in pixels, default value is 0
+                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
+                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
+                $PlayOrientation: 2,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+
+                $ThumbnailNavigatorOptions: {
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                    $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $AutoCenter: 3,                             //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+                    $SpacingX: 0,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                    $SpacingY: 0,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+                    $DisplayPieces: 15,                              //[Optional] Number of pieces to display, default value is 1
+                    $ParkingPosition: 0,                            //[Optional] The offset position to park thumbnail
+                    $Orientation: 2,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+                    $DisableDrag: true                              //[Optional] Disable drag or not, default value is false
+                }
+            };
+
+            var jssor_slider3 = new $JssorSlider$("slider3_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider3.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    var sliderWidth = parentWidth;
+
+                    //keep the slider width no more than 701
+                    sliderWidth = Math.min(sliderWidth, 1100);
+
+                    jssor_slider3.$ScaleWidth(sliderWidth);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+
+
+	<script type="text/javascript" src="js/jquery-easing.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" />
+	
+	
+<script>	
+	$(".vimeo_test1").fancybox({
+		'padding'		: 0,
+		'autoScale'		: false,
+		'transitionIn'	: 'none',
+		'transitionOut'	: 'none',
+		'width'			: 800,
+		'height'		: 600,
+		'href'			: 'http://vimeo.com/moogaloop.swf?clip_id=136484706',
+		'type'			: 'swf'
+	});
+</script>
+
+
+
+</head>
+
+<body>
+<div class="header_bg">
+<div class="container">
+	<div class="header">
+	
+		<div class="logo">
+			<a href="index.html"><img src="images/logo-cordoba-cafe.png" alt=""/></a>
+		</div> <!-- end logo -->
+		
+		
+		
+		
+		<div class="h_menu">
+		     <a id="touch-menu" class="mobile-menu" href="#">Menu</a>
+		     <nav>
+		       <ul class="menu list-unstyled">
+		       <li><a href="index.html">INICIO</a></li>
+			   <li class="activate"><a href="atractivos.html">ATRACTIVOS</a>
+			   			    <ul class="sub-menu list-unstyled">
+				  <!-- <li><a href="#">Naturales</a></li>
+				   <li><a href="atractivos-monumentos.html">Monumentos</a></li>
+				   <li><a href="#">Artesanias</a>-->	
+				   </ul>		   
+			   </li>
+			   
+			   <li><a href="servicios.html">SERVICIOS</a>
+			   	   <ul class="sub-menu list-unstyled">
+				  <!-- <li><a href="#">Restaurantes</a></li>
+				   <li><a href="#">Cafeterias</a></li>
+				   <li><a href="#">Hoteles</a>	-->
+				   </ul>			   
+			   </li>
+			   
+			   <li><a href="#">EVENTOS</a>
+			    <ul class="sub-menu list-unstyled">
+				  <!-- <li><a href="#">Expo Arte</a></li>
+				   <li><a href="#">Desfiles</a></li>-->
+			    </ul>
+			    
+			   </li>
+			   <li><a href="galeria.html">GALERIA</a></li>
+			   <li><a href="contacto.html">CONTACTO</a></li>
+		    </ul>
+		</nav> 
+		
+		<script src="js/menu.js" type="text/javascript"></script>
+		
+		<script src="js/zA7n.js" type="text/javascript"></script>
+		<script src="js/limit.js" type="text/javascript"></script>
+
+		</div><!-- end h_menu -->
+		
+		
+		<div class="clearfix"></div>
+	</div> <!-- end header -->
+</div><!-- end container -->
+</div><!-- end header-bg -->
+
+
+
+ <div class="container-full">
+<h1>Atractivos > Monumentos</h1>
+
+
+
+
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider3_container" class="contenedor-completo-tabs">
+        
+        <!-- Slides Container -->
+        <div u="slides" class="estructura-contenido-tabs">
+        
+        
+        <!-- 1 -->
+            <div>
+                <div class="contenido-tabs">
+                
+	                <div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/01InmaculadaConcepcion01.jpg">
+  <img src="images/atractivos/monumentos/01InmaculadaConcepcion02.jpg">
+  <img src="images/atractivos/monumentos/01InmaculadaConcepcion03.jpg">
+  <img src="images/atractivos/monumentos/01InmaculadaConcepcion04.jpg">
+  <img src="images/atractivos/monumentos/01InmaculadaConcepcion05.jpg">
+  <img src="images/atractivos/monumentos/01InmaculadaConcepcion06.jpg">
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		               <h3>Catedral de la Inmaculada Concepción</h3>
+<p>De estilo ecléctico se inició a construir a finales del siglo XVII y se concluyó a principios del siglo XVIII.  Alberga 3 imágenes importantes para la ciudad:</p>
+		                <ul>
+		                <li>La Virgen de la Soledad, a la que se le rinde culto el viernes santo con la procesión del silencio.​</li>
+		                <li>La Virgen de la Covadonga, fiesta patronal 8 de septiembre.</li>
+		                <li>La Virgen de la Inmaculada Concepción, santa patrona de los cordobeses a la que se le festeja el 8 de diciembre.</li>
+		                </ul>
+	                </div><!-- end col-der -->
+	                
+                </div> <!-- end contenido-tabs -->
+                <div u="thumb">Catedral de la Inmaculada Concepción</div>
+            </div>
+            
+            
+            
+            <!-- 2 -->
+            <div>
+                <div class="contenido-tabs">
+	                
+	                <div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/02ExCasinoEsp01.jpg">
+  <!-- <img src="images/atractivos/monumentos/02ExCasinoEsp02.jpg">
+  <img src="images/atractivos/monumentos/02ExCasinoEsp03.jpg">
+  <img src="images/atractivos/monumentos/02ExCasinoEsp04.jpg">
+  <img src="images/atractivos/monumentos/02ExCasinoEsp05.jpg">
+  <img src="images/atractivos/monumentos/02ExCasinoEsp06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Ex Casino Español Siglo XIX</h3>
+		                <p>Es uno de los primeros edificios de estilo Art Nouveau en México y aún guarda en su interior parte de las pinturas  decorativas en muros y la herrería original. Por un tiempo albergó al Hotel Jardín y en la actualidad, se encuentra  el Centro Cultural Córdoba, donde se montan exposiciones artísticas.​</p>
+	                </div><!-- end col-der -->
+	                
+
+	                
+                </div>
+                <div u="thumb">Ex Casino Español Siglo XIX</div>
+            </div>
+            
+            
+            
+            <!-- 3 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/03Ex-ConventoSantaRosaLima01.jpg">
+  <!-- <img src="images/atractivos/monumentos/03Ex ConventoSantaRosaLima02.jpg">
+  <img src="images/atractivos/monumentos/03Ex ConventoSantaRosaLima03.jpg">
+  <img src="images/atractivos/monumentos/03Ex ConventoSantaRosaLima04.jpg">
+  <img src="images/atractivos/monumentos/03Ex ConventoSantaRosaLima05.jpg">
+  <img src="images/atractivos/monumentos/03Ex ConventoSantaRosaLima06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Ex Convento Santa Rosa de Lima. (La Capilla) Siglo XVII</h3>
+		                <p>Se ubicó a un costado del Palacio Municipal. Su construcción data de la época colonial.​</p>
+		                <p>Actualmente es un recinto de arte y cultura donde se montan exposiciones y se presentan conferencias.​​</p>
+						<p>En ese mismo edificio se firmó la Constitución del Estado de  Veracruz el 24 de Agosto de 1917, siendo en ese entonces la Ciudad de Córdoba,  Capital del Estado de Veracruz.​</p>
+
+	                </div><!-- end col-der -->
+	              	                
+	                
+                </div>
+                <div u="thumb">Ex Convento Santa Rosa de Lima. (La Capilla) Siglo XVII</div>
+            </div>
+            
+            
+            
+            <!-- 4 -->
+            <div>
+                <div class="contenido-tabs">
+	                
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/04HaciendaCapilla01.jpg">
+  <!-- <img src="images/atractivos/monumentos/04HaciendaCapilla02.jpg">
+  <img src="images/atractivos/monumentos/04HaciendaCapilla03.jpg">
+  <img src="images/atractivos/monumentos/04HaciendaCapilla04.jpg">
+  <img src="images/atractivos/monumentos/04HaciendaCapilla05.jpg">
+  <img src="images/atractivos/monumentos/04HaciendaCapilla06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Hacienda la Capilla</h3>
+		                <p>Población perteneciente al municipio de Córdoba, se encuentra a 1080 metros sobre el nivel del mar (SNM) cuenta con 44 habitantes.​</p>
+		                <p>En esta hacienda se establecieron las bodegas de la producción de tabaco y café en los siglos XVII al XIX.​​</p>
+
+	                </div><!-- end col-der -->
+	                                
+                </div>
+                <div u="thumb">Hacienda la Capilla</div>
+            </div>
+            
+            
+            
+            
+            <!-- 5 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/05AntonioPadua01.jpg">
+  <!-- <img src="images/atractivos/monumentos/05AntonioPadua02.jpg">
+  <img src="images/atractivos/monumentos/05AntonioPadua03.jpg">
+  <img src="images/atractivos/monumentos/05AntonioPadua04.jpg">
+  <img src="images/atractivos/monumentos/05AntonioPadua05.jpg">
+  <img src="images/atractivos/monumentos/05AntonioPadua06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Iglesia de San Antonio de Padua</h3>
+		                <p>Ha sido testigo mudo de la historia de Córdoba, uno de los templos católicos de la ciudad que más ha tenido usos, desde una capilla hasta un cuartel militar y una estación de Bomberos.​</p>
+		                <p>El interior está decorado con un retablo, coetáneo a la fundación. En él se adora por gloriosísimo título al decoroso blasón de la familia franciscana, San Antonio de Padua.​​</p>
+
+	                </div><!-- end col-der -->
+                
+                </div>
+                <div u="thumb">Iglesia de San Antonio de Padua</div>
+            </div>
+            
+            
+            
+            
+            <!-- 6 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/06PalacioMunicipal01.jpg">
+  <!-- <img src="images/atractivos/monumentos/06PalacioMunicipal02.jpg">
+  <img src="images/atractivos/monumentos/06PalacioMunicipal03.jpg">
+  <img src="images/atractivos/monumentos/06PalacioMunicipal04.jpg">
+  <img src="images/atractivos/monumentos/06PalacioMunicipal05.jpg">
+  <img src="images/atractivos/monumentos/06PalacioMunicipal06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Palacio Municipal</h3>
+		                <p>De estilo neoclásico cuya construcción data de 1905.  En su interior se encuentra el Archivo Histórico Municipal que se compone de, aproximadamente 3 millones de documentos originales entre los que destacan: el acta de fundación de la Ciudad, registros de compra y venta de esclavos, de haciendas, así como  fotografías antiguas, pagos de impuestos de la época y una copia fiel de los “Tratados de Córdoba”.​</p>
+		                <p>El frente del edificio cuenta con 21 arcos que conmemoran la batalla del 21 de Mayo de 1821.​​​</p>
+
+	                </div><!-- end col-der -->
+	                
+                </div>
+                <div u="thumb">Palacio Municipal</div>
+            </div>
+            
+            
+            
+            
+            <!-- 7 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/07parque01.jpg">
+  <img src="images/atractivos/monumentos/07parque02.jpg">
+  <img src="images/atractivos/monumentos/07parque03.jpg">
+  <img src="images/atractivos/monumentos/07parque04.jpg">
+  <!-- <img src="images/atractivos/monumentos/07parque05.jpg">
+  <img src="images/atractivos/monumentos/07parque06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Parque 21 de Mayo</h3>
+		                <p>Plaza principal, que en sus inicios fue utilizada para compra y venta de mercancías. ​​</p>
+		                <p>Su nombre  hace honor  a la victoria de los cordobeses  sobre el ejército realista  en la batalla del 21 de Mayo.​​​</p>
+						<p>Los faroles  estratégicamente ubicados forman la cruz de la orden imperial y los monumentos forman la cruz guadalupana. De esta manera el parque simula  una gran medalla.​​</p>
+
+	                </div><!-- end col-der -->
+	                
+                </div>
+                <div u="thumb">Parque 21 de Mayo</div>
+            </div>
+            
+            
+            
+            <!-- 8 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/08PortalGloria01.jpg">
+  <!-- <img src="images/atractivos/monumentos/08PortalGloria02.jpg">
+  <img src="images/atractivos/monumentos/08PortalGloria03.jpg">
+  <img src="images/atractivos/monumentos/08PortalGloria04.jpg">
+  <img src="images/atractivos/monumentos/08PortalGloria05.jpg">
+  <img src="images/atractivos/monumentos/08PortalGloria06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Portal de la Gloria. Siglo XIX</h3>
+		                <p>Se conoce con este nombre a la hermosa casona ubicada a un costado de la Iglesia, frente a la plaza principal. En este lugar se hospedaron personajes de la historia como Benito Juárez, Agustín de Iturbide, así como  Maximiliano y Carlota. Fue también la casa donde habitó el poeta cordobés Jorge Cuesta; posteriormente, fue propiedad del Sr. Luis Sainz López Negrete quien la donó para beneficio de la ciudad y  actualmente alberga  la Casa de la Cultura, la Biblioteca Municipal y el Museo de la Ciudad.​​</p>
+
+	                </div><!-- end col-der -->
+	                
+                </div>
+                <div u="thumb">Portal de la Gloria. Siglo XIX</div>
+            </div>
+            
+            
+            
+            
+            
+            <!-- 9 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/09zeballos01.jpg">
+  <img src="images/atractivos/monumentos/09zeballos02.jpg">
+  <!-- <img src="images/atractivos/monumentos/09zeballos03.jpg">
+  <img src="images/atractivos/monumentos/09zeballos04.jpg">
+  <img src="images/atractivos/monumentos/09zeballos05.jpg">
+  <img src="images/atractivos/monumentos/09zeballos06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Portal de Zevallos</h3>
+		                <p>Sitio donde se consumó la independencia de México con la firma de los Tratados de Córdoba el 24 de Agosto de 1821.​​</p>
+		                <p>Posteriormente utilizada como hotel durante un tiempo y en 1914, fue sede del cuartel general de Don Venustiano Carranza.​​​</p>
+						<p>Este bello edificio Zevallos, es de estilo colonial. Cuenta con un elemento estructural de especial atención (Contrafuerte), en el vértice de la esquina de la avenida uno y calle uno el cual ha permitido sostener de pie a la estructura a pesar de los fuertes embates debido a los sismos de la zona que es tan comunes.​​</p>
+						<p>Actualmente, se encuentran en él los famosos “Portales“,  restaurantes y cafeterías donde podrás degustar el tezmole de pollo, platillo típico de la gastronomía cordobesa, y beber el sabroso café de la región, así como el tradicional menyul.​​​</p>
+
+
+	                </div><!-- end col-der -->
+	                
+                </div>
+                <div u="thumb">Portal de Zevallos</div>
+            </div>  
+            
+            
+            
+            
+            
+            <!-- 10 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/10teatro01.jpg">
+  <!-- <img src="images/atractivos/monumentos/10teatro02.jpg">
+  <img src="images/atractivos/monumentos/10teatro03.jpg">
+  <img src="images/atractivos/monumentos/10teatro04.jpg">
+  <img src="images/atractivos/monumentos/10teatro05.jpg">
+  <img src="images/atractivos/monumentos/10teatro06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Teatro Pedro Díaz</h3>
+		                <p>Se inició su construcción en 1866, durante el imperio de Maximiliano, posee columnas de estilo toscanas sobre pedestales y un remate triangular denominado frontispicio.​​</p>
+		                <p>Fue terminado hasta 1892, con el apoyo del comerciante español Don Pedro Díaz. Se inauguró en 1895 con la zarzuela “La Tempestad”. ​​​</p>
+						<p>Actualmente se realizan diversas actividades artísticas y culturales: teatro, música, danza,  festivales, conferencias, asambleas, informes de gobierno y espectáculos infantiles.​</p>
+
+	                </div><!-- end col-der -->
+	                
+                </div>
+                <div u="thumb">Teatro Pedro Díaz</div>
+            </div>
+            
+            
+            
+            
+            
+            <!-- 11 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/11toxpan01.jpg">
+  <img src="images/atractivos/monumentos/11toxpan02.jpg">
+  <img src="images/atractivos/monumentos/11toxpan03.jpg">
+  <!-- <img src="images/atractivos/monumentos/11toxpan04.jpg">
+  <img src="images/atractivos/monumentos/11toxpan05.jpg">
+  <img src="images/atractivos/monumentos/11toxpan06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Toxpan</h3>
+		                <p>A menos de 2 km de distancia del centro histórico de la ciudad de Córdoba, Veracruz, México, se encuentra la zona arqueológica de Toxpan.​​</p>
+		                <p>Toxpan es una palabra en idioma náhuatl y en español significa “Lugar de los conejos”.​​​</p>
+						<p>Este antiguo asentamiento se encuentra entre dos ríos: río Seco y río san Antonio, situados al norte de la ciudad donde abundan: el agua, la flora y la fauna.</p>
+		                <p>Su fundación inició hace más de 2000 mil años y vivió su período de esplendor entre los años 300 y 600 D.C. cuando fue habitada por campesinos, artesanos, comerciantes y sacerdotes. Toxpan formó parte de la ruta de intercambio cultural y comercial entre el altiplano central y el sureste de México.​​​</p>
+						<p>El sitio arqueológico comprende una extensión territorial de 9.5 hectáreas donde se encuentran 21 basamentos piramidales y 1 cancha de juego de pelota.​</p>
+
+	                </div><!-- end col-der -->
+	                
+                </div>
+                <div u="thumb">Toxpan</div>
+            </div>
+            
+            
+            
+            
+            
+            
+            <!-- 12 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/12soledad01.jpg">
+  <!-- <img src="images/atractivos/monumentos/12soledad02.jpg">
+  <img src="images/atractivos/monumentos/12soledad03.jpg">
+  <img src="images/atractivos/monumentos/12soledad04.jpg">
+  <img src="images/atractivos/monumentos/12soledad05.jpg">
+  <img src="images/atractivos/monumentos/12soledad06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Virgen de la Soledad</h3>
+		                <p>En la semana santa, la Virgen de la Soledad, sale a las calles a las 8:00 pm, acompañada de cientos de personas que acuden para darle el pésame por la muerte de su hijo. A su paso va haciendo que todo quede en silencio, los portales, la música, la gente, respetan esta imagen de la virgen dolorosa que de acuerdo a la tradición es la protectora de Córdoba y está hecha por los ángeles.​</p>
+
+	                </div><!-- end col-der -->
+	                
+                </div>
+                <div u="thumb">Virgen de la Soledad</div>
+            </div>
+            
+            
+            
+            
+            
+            <!-- 13 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/13SanJose01.jpg">
+  <!-- <img src="images/atractivos/monumentos/13SanJose02.jpg">
+  <img src="images/atractivos/monumentos/13SanJose03.jpg">
+  <img src="images/atractivos/monumentos/13SanJose04.jpg">
+  <img src="images/atractivos/monumentos/13SanJose05.jpg">
+  <img src="images/atractivos/monumentos/13SanJose06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Iglesia de San José</h3>
+		                <p>Se empezó en el año de 1699 y se terminó en 1721, el 19 de marzo. La persona a quien se debe esta construcción se llamó Nicolás de la Torre y Mena. Un incendio la dañó bastante al año siguiente de su dedicación por lo que se reparó en 1725.​</p>
+		                <p>Siguió abierta al culto hasta que fue clausurada y en la Revolución sirvió de cuartel a las tropas carrancistas que destruyeron imágenes y ornatos del culto.​​​</p>
+						<p>Se deterioraron también las bóvedas del templo y unas habitaciones anexas, que fueron restauradas en 1940. El templo original sólo llega hasta el actual crucero, pues era de una sola nave y el crucero y ábside nuevos se terminaron con estructura de concreto armado en 1962.​</p>
+						<p>Fachada muy sencilla con 1 torre pequeña. 2 columnas enmarcan la puerta de medio punto, que tiene encima la ventana mixtilínea del coro.​​</p>
+
+	                </div><!-- end col-der -->
+	                
+                </div>
+                <div u="thumb">Iglesia de San José</div>
+            </div>
+            
+            
+            
+            
+            
+            <!-- 14 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/14Sebastian01.jpg">
+  <!-- <img src="images/atractivos/monumentos/14Sebastian02.jpg">
+  <img src="images/atractivos/monumentos/14Sebastian03.jpg">
+  <img src="images/atractivos/monumentos/14Sebastian04.jpg">
+  <img src="images/atractivos/monumentos/14Sebastian05.jpg">
+  <img src="images/atractivos/monumentos/14Sebastian06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Templo San Sebastián (LAM XVIII)</h3>
+		                	<p>Templo del siglo XVIII que empezó en 1773 don José Valero Grajeda. De reducidas dimensiones, su fachada es neoclásica, con frontón cortado en su parte inferior. Las 2 torres, por su último cuerpo, recuerdan las de Santa María en Orizaba, por su gran semejanza con ellas. La bóveda es de ladrillo, muy delgada, y la cúpula de lámina.​</p>
+		                <p>Esta iglesia es la más antigua de la ciudad. Tiene influencia francesa y posee una cúpula de bronce, que se aprecia desde el interior. Fue Cuartel de Francisco Madero, estuvo abandonado muchos años, en  1916 fue Cámara del Trabajo y entre tantos cambios, al parecer poco a poco fueron desapareciendo el altar principal, por lo que al interior hay imágenes religiosas.​​</p>
+
+	                </div><!-- end col-der -->
+	                
+                </div>
+                <div u="thumb">Templo San Sebastián (LAM XVIII)</div>
+            </div>
+            
+            
+            
+            
+            
+            <!-- 15 -->
+            <div>
+                <div class="contenido-tabs">
+                	<div class="col-izq">
+		                <div class="fotorama"
+     data-width="385"
+     data-height="300"
+          data-nav="thumbs">
+  <img src="images/atractivos/monumentos/15mural01.jpg">
+  <!-- <img src="images/atractivos/monumentos/15mural02.jpg">
+  <img src="images/atractivos/monumentos/15mural03.jpg">
+  <img src="images/atractivos/monumentos/15mural04.jpg">
+  <img src="images/atractivos/monumentos/15mural05.jpg">
+  <img src="images/atractivos/monumentos/15mural06.jpg">-->
+
+</div>
+		                
+	                </div><!-- end col-izq -->
+	                
+	                 <div class="col-der">
+		                <h3>Mural de Cordoba por Siempre</h3>
+<p>Obra del pintor cordobés Jaime Sánchez Nava, fue pintado en el año 2010, utiliza una técnica de acrílico sobre yeso, con un estilo en movimiento. Se lee de izquierda a derecha y es una cronología de la historia de Córdoba.​</p>
+	                </div><!-- end col-der -->	                
+	                
+                </div>
+                <div u="thumb">Mural de Cordoba por Siempre</div>
+            </div>
+          </div>
+
+        <!--#region ThumbnailNavigator Skin Begin -->
+
+        <style>
+            /* jssor slider thumbnail navigator skin 13 css */
+            /*
+            .jssort13 .p            (normal)
+            .jssort13 .p:hover      (normal mouseover)
+            
+            .jssort13 .pav          (active)
+            .jssort13 .pav:hover    (active mouseover)
+            
+            .jssort13 .pdn          (mousedown)
+            */
+
+            .jssort13 { 
+                position: absolute;
+                width: 300px;
+                height: 420px;
+            }
+
+                .jssort13 .p {
+                    POSITION: absolute;
+                    WIDTH: 300px;
+                    HEIGHT: 27px;
+                    TOP: 0;
+                    LEFT: 0;
+                    padding: 0px;
+                }
+
+                .jssort13 .w {
+                    cursor: pointer;
+                    position: absolute;
+                    WIDTH: 300px;
+                    HEIGHT: 27px;
+                    border-bottom: 1px solid gray;
+                    top: -1px;
+                    left: 0px;
+                }
+
+                .jssort13 .pdn .w {border-right: 1px solid #fff;}
+
+                .jssort13 .c {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    line-height: 25px;
+                    text-align: center;
+                    color: #000;
+                    font-size: 12px;
+                }
+
+                .jssort13 .p .c  {border-right: grey;color:#088dd1;} /* tabs normales */
+                .jssort13 .p:hover .c { background-color: #fff;border-right: 1px solid grey;color:#79b647; } /* hover tabs normales */
+                
+                .jssort13 .pav .w {border-right: gray;}
+                
+                .jssort13 .pav .c  {background-color: #fff;color:#3e4095;font-weight: 800;} /* activo */                
+				.jssort13 .pav:hover .c {border-right: gray;color:#3e4095;} /* hover del activo */
+        </style>
+
+        <div u="thumbnavigator" class="jssort13" style="left: 0px; top: 0px;">
+            <!-- Thumbnail Item Skin Begin -->
+            <div u="slides" style="cursor: default; top:0px; left:0px;">
+                <div u="prototype" class="p">
+                    <div class=w><div u="thumbnailtemplate" class="c"></div></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!--#endregion ThumbnailNavigator Skin End -->
+
+    </div>
+    <!-- Jssor Slider End -->
+
+
+
+
+
+
+
+
+</div> <!-- end container-full -->
+
+	
+
+
+
+
+<footer>
+<div class="col1">
+	<div class="social-net">
+	<a href="https://www.facebook.com/pages/Vive-C%C3%B3rdoba/1042843525739290" target="_blank"><img src="images/facebook.png" alt="facebook" /></a>
+	<a href="twiter: https://twitter.com/Cordoba_Vive" target="_blank"><img src="images/twitter.png" alt="twitter" /></a>
+	<a href="https://plus.google.com/u/0/117404301102647770535/posts" target="_blank"><img src="images/google.png" alt="google+" /></a>
+	<a href="#"><img src="images/instagram.png" alt="instagram" /></a>
+
+
+	</div>
+	
+	<h3>Contáctanos</h3>
+	<p>H.Ayuntamiento de Córdoba 2014-2017</p>
+	<p>Avenida 1 y 3 Centro Cultural Córdoba <br/>
+Lunes a Domingo de 8:30 a 19:00 hrs <br/>
+Córdoba,Veracruz,México.
+Tel.: 271 71 2 43 44</p>
+</div>
+
+
+<div class="col2">
+	<a href="http://www.cordoba.gob.mx" target="_blank"><img src="images/logo-footer01.png" alt="Córdoba nos mueve y nos une" /></a>
+	<a href="http://www.cordoba.gob.mx" target="_blank"><img src="images/logo-footer02.png" alt="Ayuntamiento de Córdoba" /></a>
+	<a href="#"><img src="images/logo-footer03.png" alt="Sierra del Café" /></a>
+
+	<!-- <img src="images/logos-footer.png" alt="logos Córdoba"  /> -->
+</div>
+
+<div class="col3">
+	<a class="icon-clip" href="descargas.html">
+	  <img src="images/clip.png" alt="icono Clip" />
+	  <h5>Descargables</h5>
+	</a>
+	
+	
+	<a class="btn-video vimeo_test1" href="javascript:;">
+	  <i class="fa fa-video-camera"></i>
+	  <h5>Ve nuestro video</h5>
+	</a>
+	
+</div>
+
+</footer>
+
+</body>
+
+
